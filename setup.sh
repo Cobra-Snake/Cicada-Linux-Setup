@@ -8,5 +8,5 @@ for i in "${tools[@]}"; do
     apt install "$i" -y --fix-missing
 done
 
-wget "https://github.com/bee-san/RustScan/releases/download/2.4.1/rustscan.deb.zip"
-dpkg -i rustscan.deb
+wget -O rustscan.zip "https://github.com/bee-san/RustScan/releases/download/2.4.1/rustscan.deb.zip"
+unzip rustscan.zip
