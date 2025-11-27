@@ -1,5 +1,5 @@
 #!/bin/bash
-apt update -y && apt-get update -y && apt upgrade -y && apt install gem -y
+apt update -y && apt-get update -y && apt upgrade -y && apt install gem -y --fix-missing
 
 tools=(
 "gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool"
@@ -24,10 +24,10 @@ done
 wget "https://github.com/bee-san/RustScan/releases/download/2.4.1/rustscan.deb.zip"
 unzip rustscan.deb.zip
 dpkg -i rustscan_2.4.1-1_amd64.deb
-rm rustscan.deb.zip && rustscan_2.4.1-1_amd64.deb rm rustscan.tmp0-stripped
+rm rustscan.deb.zip rustscan_2.4.1-1_amd64.deb rustscan.tmp0-stripped
 gem install haiti-hash
 
-apt install python2 -y
+apt install python2 -y --fix-missing
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
 python2 get-pip.py
 rm get-pip.py
