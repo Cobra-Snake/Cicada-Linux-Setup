@@ -14,7 +14,8 @@ tools=(
 "zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone"
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
 "wpscan" "set" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
-"spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "neofetch")
+"spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "neofetch" "hashid" 
+"spooftooph" "ghidra" "remmina" "mimikatz" "commix")
 
 for i in "${tools[@]}"; do
     echo "[+] Installing $i ..."
