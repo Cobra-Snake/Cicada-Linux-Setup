@@ -12,8 +12,9 @@ tools=(
 "smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine"
 "gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip"
 "zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone"
-"wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce"
-)
+"wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
+"wpscan" "set" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
+"spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast")
 
 for i in "${tools[@]}"; do
     echo "[+] Installing $i ..."
@@ -31,3 +32,7 @@ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
 python2 get-pip.py
 rm get-pip.py
 pip2 --version
+
+git clone "https://github.com/Screetsec/TheFatRat.git" && cd TheFatRat
+chmod +x update && ./update && chmod +x setup.sh && ./setup.sh
+mv TheFatRat /root
