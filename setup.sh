@@ -15,7 +15,7 @@ tools=(
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
 "wpscan" "set" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
 "spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "neofetch" "hashid" 
-"spooftooph" "ghidra" "remmina" "mimikatz" "commix")
+"spooftooph" "ghidra" "remmina" "mimikatz" "commix" "binwalk")
 
 for i in "${tools[@]}"; do
     echo "[+] Installing $i ..."
