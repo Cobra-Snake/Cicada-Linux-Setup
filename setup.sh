@@ -14,7 +14,7 @@ tools=(
 "zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone"
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
 "wpscan" "set" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
-"spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast")
+"spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "neofetch")
 
 for i in "${tools[@]}"; do
     echo "[+] Installing $i ..."
@@ -26,6 +26,7 @@ unzip rustscan.deb.zip
 dpkg -i rustscan_2.4.1-1_amd64.deb
 rm rustscan.deb.zip rustscan_2.4.1-1_amd64.deb rustscan.tmp0-stripped
 gem install haiti-hash
+echo "neofetch --ascii_distro kali" >> ~/.zshrc
 
 apt install python2 -y --fix-missing
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
