@@ -8,7 +8,7 @@ tools=(
 "crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng"
 "theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego"
 "radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost"
-"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat"
+"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack"
 "smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine"
 "gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip"
 "zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone"
