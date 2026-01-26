@@ -35,8 +35,8 @@ pip2 --version
 
 git clone "https://github.com/Screetsec/TheFatRat.git" && cd TheFatRat
 chmod +x update && ./update && chmod +x setup.sh && ./setup.sh
-mv TheFatRat /root
 cd ..
+mv TheFatRat /root
 
 wget https://update.code.visualstudio.com/latest/linux-deb-x64/stable -O vscode.deb
 dpkg -i vscode.deb
