@@ -28,11 +28,6 @@ dpkg -i rustscan_2.4.1-1_amd64.deb
 gem install haiti-hash
 echo "neofetch --ascii_distro kali" >> ~/.zshrc
 
-apt install python2 -y --fix-missing
-curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
-python2 get-pip.py
-pip2 --version
-
 git clone "https://github.com/Screetsec/TheFatRat.git" && cd TheFatRat
 chmod +x update && ./update && chmod +x setup.sh && ./setup.sh
 cd ..
