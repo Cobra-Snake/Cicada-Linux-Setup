@@ -13,7 +13,7 @@ tools=(
 "gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip"
 "zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone"
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
-"wpscan" "set" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
+"wpscan" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
 "spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "neofetch" "hashid" 
 "spooftooph" "ghidra" "remmina" "mimikatz" "commix" "binwalk" "reaver" "rubeus")
 
