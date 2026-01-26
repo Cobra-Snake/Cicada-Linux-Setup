@@ -5,7 +5,7 @@ tools=(
 "gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool"
 "arping" "hping3" "beef-xss" "bloodhound" "bully" "cadaver" "cewl"
 "0trace" "ltrace" "nuclei" "dirb" "dirsearch" "dirbuster" "netexec"
-"crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng"
+"crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng" "sublist3r"
 "theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego"
 "radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost"
 "stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack"
