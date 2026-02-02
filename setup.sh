@@ -10,7 +10,7 @@ tools=(
 "radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost"
 "stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack"
 "smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser"
-"gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip"
+"gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan"
 "zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone"
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
 "wpscan" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
