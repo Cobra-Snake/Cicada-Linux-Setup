@@ -31,7 +31,7 @@ echo "fastfetch --logo kali" >> ~/.zshrc
 cd /root
 git clone "https://github.com/Screetsec/TheFatRat.git" && cd TheFatRat
 chmod +x update && ./update && chmod +x setup.sh && ./setup.sh
-cd ..
+cd ~/Cicada-Linux-Setup
 
 wget https://update.code.visualstudio.com/latest/linux-deb-x64/stable -O vscode.deb
 dpkg -i vscode.deb
