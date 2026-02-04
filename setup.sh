@@ -1,5 +1,5 @@
 #!/bin/bash
-apt update -y --fix-missing && apt --fix-broken install -y && apt-get update -y --fix-missing && apt upgrade -y --fix-missing && apt install gem -y --fix-missing
+apt update -y --fix-missing && apt --fix-broken install -y && apt-get update -y --fix-missing && apt install gem -y --fix-missing
 
 tools=(
 "gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool"
@@ -8,10 +8,10 @@ tools=(
 "crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng" "sublist3r"
 "theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego"
 "radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost"
-"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack"
+"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" "metasploit"
 "smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser"
 "gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan"
-"zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone"
+"zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "hydra"
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
 "wpscan" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
 "spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "hashid" 
