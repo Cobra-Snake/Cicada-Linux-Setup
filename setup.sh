@@ -1,17 +1,17 @@
 #!/bin/bash
-apt update -y --fix-missing && apt --fix-broken install -y && apt-get update -y --fix-missing && apt install gem -y --fix-missing
+apt update -y --fix-missing && apt --fix-broken install -y && apt-get update -y --fix-missing && apt upgrade -y --fix-missing && apt install gem -y --fix-missing
 
 tools=(
 "gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool"
-"arping" "hping3" "beef-xss" "bloodhound" "bully" "cadaver" "cewl"
+"arping" "hping3" "beef-xss" "bloodhound" "bully" "cadaver" "cewl" "cmseek"
 "ltrace" "nuclei" "dirb" "dirsearch" "dirbuster" "netexec" "fastfetch"
 "crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng" "sublist3r"
 "theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego"
 "radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost"
-"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" "metasploit"
+"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" 
 "smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser"
 "gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan"
-"zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "hydra"
+"zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "info"
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
 "wpscan" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
 "spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "hashid" 
