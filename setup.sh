@@ -6,10 +6,10 @@ tools=(
 "arping" "hping3" "beef-xss" "bloodhound" "bully" "cadaver" "cewl" "cmseek"
 "ltrace" "nuclei" "dirb" "dirsearch" "dirbuster" "netexec" "fastfetch"
 "crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng" "sublist3r"
-"theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego"
+"theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego" "bloodyAD"4
 "radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost"
 "stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" "nishang"
-"smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser"
+"smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser" "knock"
 "gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan"
 "zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "info"
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
