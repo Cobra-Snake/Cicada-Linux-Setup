@@ -36,12 +36,5 @@ cd ~/Cicada-Linux-Setup
 wget https://update.code.visualstudio.com/latest/linux-deb-x64/stable -O vscode.deb
 dpkg -i vscode.deb
 
-git clone "https://github.com/screetsec/Dracnmap.git" && cd Dracnmap
-chmod +x dracnmap-v2.2.sh
-mv dracnmap-v2.2.sh dracnmap
-mv dracnmap /usr/local/bin
-cd ../..
-
 apt upgrade -y --fix-missing
 apt autoremove
-rm -rf ~/Cicada-Linux-Setup
