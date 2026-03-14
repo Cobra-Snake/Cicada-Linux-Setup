@@ -7,14 +7,14 @@ tools=(
 "ltrace" "nuclei" "dirb" "dirsearch" "dirbuster" "netexec" "fastfetch"
 "crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng" "sublist3r"
 "theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego" "bloodyAD"4
-"radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost"
+"radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost" "cupp"
 "stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" "nishang"
 "smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser" "knock"
-"gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan"
-"zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "info"
+"gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan" 
+"zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "info" "armitage"
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
 "wpscan" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
-"spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "hashid" 
+"spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "hashid" "windows-privesc-check"
 "spooftooph" "ghidra" "remmina" "mimikatz" "commix" "binwalk" "reaver" "rubeus")
 
 for i in "${tools[@]}"; do
