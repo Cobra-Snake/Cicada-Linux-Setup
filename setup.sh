@@ -36,5 +36,8 @@ cd ~/Cicada-Linux-Setup
 wget https://update.code.visualstudio.com/latest/linux-deb-x64/stable -O vscode.deb
 dpkg -i vscode.deb
 
+cd /usr/share/nishang/ && git clone https://github.com/411Hall/JAWS.git
+cd JAWS && rm LICENSE README.md
+
 apt upgrade -y --fix-missing
 apt autoremove
