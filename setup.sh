@@ -26,12 +26,12 @@ wget "https://github.com/bee-san/RustScan/releases/download/2.4.1/rustscan.deb.z
 unzip rustscan.deb.zip
 dpkg -i rustscan_2.4.1-1_amd64.deb
 gem install haiti-hash
-echo "fastfetch --logo kali" >> ~/.zshrc
+echo "fastfetch --logo kali" >> /home/cobra/.zshrc
 
 cd /root
 git clone "https://github.com/Screetsec/TheFatRat.git" && cd TheFatRat
 chmod +x update && ./update && chmod +x setup.sh && ./setup.sh
-cd ~/Cicada-Linux-Setup
+cd /home/cobra/Cicada-Linux-Setup
 
 wget https://update.code.visualstudio.com/latest/linux-deb-x64/stable -O vscode.deb
 dpkg -i vscode.deb
