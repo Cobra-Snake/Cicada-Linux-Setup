@@ -2,20 +2,20 @@
 apt update -y --fix-missing && apt --fix-broken install -y && apt-get update -y --fix-missing && apt upgrade -y --fix-missing && apt install gem -y --fix-missing
 
 tools=(
-"gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool"
-"arping" "hping3" "beef-xss" "bloodhound" "bully" "cadaver" "cewl" "cmseek"
-"ltrace" "nuclei" "dirb" "dirsearch" "dirbuster" "netexec" "fastfetch"
-"crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng" "sublist3r"
-"theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego" "bloodyAD"
-"radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost" "cupp"
-"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" "nishang"
-"smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser" "knock"
-"gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan" "powersploit"
-"zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "info" "armitage"
-"wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" 
-"wpscan" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" 
+"gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool" "wifiphisher"
+"arping" "hping3" "beef-xss" "bloodhound" "bully" "cadaver" "cewl" "cmseek" "gemini-cli"
+"ltrace" "nuclei" "dirb" "dirsearch" "dirbuster" "netexec" "fastfetch" "backdoor-factory"
+"crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng" "sublist3r" "airgeddon" "gedit"
+"theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego" "bloodyAD" "parsero"
+"radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost" "cupp" "hoaxshell"
+"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" "nishang" "stegseek" "sstimap"
+"smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser" "knock" "ligolo-ng"
+"gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan" "hexstrike-ai" "ligolo-mp"
+"zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "info" "armitage" "veil" "ollydbg"
+"wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" "rainbowcrack"
+"wpscan" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" "autorecon"
 "spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "hashid" "windows-privesc-check"
-"spooftooph" "ghidra" "remmina" "mimikatz" "commix" "binwalk" "reaver" "rubeus")
+"spooftooph" "ghidra" "remmina" "mimikatz" "commix" "binwalk" "reaver" "rubeus" "arjun" "sqlsus ")
 
 for i in "${tools[@]}"; do
     echo "[+] Installing $i ..."
