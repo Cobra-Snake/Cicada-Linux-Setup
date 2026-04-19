@@ -2,7 +2,7 @@
 apt update -y --fix-missing && apt --fix-broken install -y && apt-get update -y --fix-missing && apt upgrade -y --fix-missing && apt install gem -y --fix-missing
 
 tools=(
-"gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool" "wifiphisher"
+"gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool" "wifiphisher" "braa"
 "arping" "hping3" "beef-xss" "bloodhound" "bully" "cadaver" "cewl" "cmseek" "gemini-cli"
 "ltrace" "nuclei" "dirb" "dirsearch" "dirbuster" "netexec" "fastfetch" "backdoor-factory"
 "crackmapexec" "evil-winrm" "crunch" "legion" "set" "recon-ng" "sublist3r" "airgeddon" "gedit"
