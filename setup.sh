@@ -26,7 +26,7 @@ wget "https://github.com/bee-san/RustScan/releases/download/2.4.1/rustscan.deb.z
 unzip rustscan.deb.zip
 dpkg -i rustscan_2.4.1-1_amd64.deb
 gem install haiti-hash
-echo "fastfetch --logo kali" >> /home/cobra/.zshrc
+echo "fastfetch --logo kali" >> ~/.zshrc
 
 cd /root
 git clone "https://github.com/Screetsec/TheFatRat.git" && cd TheFatRat
