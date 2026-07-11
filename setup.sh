@@ -1,5 +1,5 @@
 #!/bin/bash
-apt update -y --fix-missing && apt --fix-broken install -y && apt-get update -y --fix-missing && apt upgrade -y --fix-missing && apt install gem -y --fix-missing
+apt update -y --fix-missing && apt-get update -y --fix-missing && apt full-upgrade -y --fix-missing && apt install gem -y --fix-missing
 
 tools=(
 "gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool" "wifiphisher" "braa"
