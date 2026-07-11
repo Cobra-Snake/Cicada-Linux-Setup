@@ -2,14 +2,14 @@
 apt update -y --fix-missing && apt-get update -y --fix-missing && apt install gem -y --fix-missing && apt install libcompress-raw-lzma-perl -y --fix-missing && apt full-upgrade -y --fix-missing
 
 tools=(
-"gobuster" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool" "krbrelayx" "pspy" "spraykatz"
+"dradis" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool" "krbrelayx" "pspy" "spraykatz"
 "wifiphisher" "braa" "arping" "hping3" "beef-xss" "sickle-pdk" "bopscrk" " kerberoast" "apache-users"
 "bloodhound" "bully" "cadaver" "cewl" "cmseek" "gemini-cli" "chisel" "ligolo-ng" "legba" "penelope"
 "ltrace" "nuclei" "dirb" "dirsearch" "dirbuster" "netexec" "fastfetch" "backdoor-factory" "anew" 
 "crackmapexec"  "crunch" "legion" "set" "recon-ng" "sublist3r" "airgeddon" "gedit""adaptixc2" "powercat"
 "theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego" "bloodyAD" "parsero" "shell-gpt"
 "radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost" "cupp" "hoaxshell" "arsenal-ng"
-"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" "nishang" "stegseek" "sstimap" "dradis"
+"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" "nishang" "stegseek" "sstimap"
 "smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser" "knock" "ligolo-ng" "code-oss"
 "gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan" "hexstrike-ai" "ligolo-mp"
 "zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "info" "armitage" "veil" "ollydbg"
