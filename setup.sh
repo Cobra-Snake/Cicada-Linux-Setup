@@ -16,7 +16,7 @@ tools=(
 "wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" "rainbowcrack" "donut"
 "wpscan" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" "autorecon""wpprobe" 
 "sharphound" "uro" "dumpzilla" "hashrat" "shellfire" "villain" "sshuttle"  "web-cache-vulnerability-scanner"
-"spraykatz" "Wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "hashid" "windows-privesc-check" "shellnoob"
+"spraykatz" "wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "hashid" "windows-privesc-check" "shellnoob"
 "spooftooph" "ghidra" "remmina" "mimikatz" "commix" "binwalk" "reaver" "rubeus" "arjun" "sqlsus" "hamster-sidejack")
 
 for i in "${tools[@]}"; do
