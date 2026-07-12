@@ -2,22 +2,22 @@
 apt update -y --fix-missing && apt-get update -y --fix-missing && apt install gem -y --fix-missing && apt install libcompress-raw-lzma-perl -y --fix-missing && apt full-upgrade -y --fix-missing
 
 tools=(
-"dradis" "ghex" "steghide" "yersinia" "amass" "aircrack-ng" "apktool" "krbrelayx" "pspy" "spraykatz"
-"wifiphisher" "braa" "arping" "hping3" "beef-xss" "sickle-pdk" "bopscrk" " kerberoast" "apache-users"
-"bloodhound" "bully" "cadaver" "cewl" "cmseek" "gemini-cli" "chisel" "ligolo-ng" "legba" "penelope"
-"ltrace" "nuclei" "dirb" "dirsearch" "dirbuster" "netexec" "fastfetch" "backdoor-factory" "anew" 
-"crackmapexec"  "crunch" "legion" "set" "recon-ng" "sublist3r" "airgeddon" "gedit""adaptixc2" "powercat"
-"theharvester" "ettercap-graphical" "dnsrecon" "sherlock" "maltego" "bloodyAD" "parsero" "shell-gpt"
-"radare2" "wafw00f" "subfinder" "spiderfoot" "macchanger" "foremost" "cupp" "hoaxshell" "arsenal-ng"
-"stegcracker" "wfuzz" "enum4linux-ng" "dmitry" "socat" "pdfcrack" "nishang" "stegseek" "sstimap"
-"smtp-user-enum" "smbmap" "impacket-scripts" "medusa" "wine" "xsser" "knock" "ligolo-ng" "code-oss"
-"gospider" "p0f" "davtest" "powersploit" "sslsplit" "sslstrip" "joomscan" "hexstrike-ai" "ligolo-mp"
-"zaproxy" "peass" "cloud-enum" "gophish" "httrack" "onesixtyone" "info" "armitage" "veil" "ollydbg"
-"wapiti" "whatweb" "webshells" "lbd" "ncrack" "tmux" "raven" "tinja" "fierce" "rainbowcrack" "donut"
-"wpscan" "fping" "dsniff" "dnschef" "masscan" "feroxbuster" "samdump2" "shellter" "autorecon""wpprobe" 
-"sharphound" "uro" "dumpzilla" "hashrat" "shellfire" "villain" "sshuttle"  "web-cache-vulnerability-scanner"
-"spraykatz" "wordlists" "pspy" "dmitry" "dumpzilla" "kerberoast" "hashid" "windows-privesc-check" "shellnoob"
-"spooftooph" "ghidra" "remmina" "mimikatz" "commix" "binwalk" "reaver" "rubeus" "arjun" "sqlsus" "hamster-sidejack")
+"dradis" "ghex" "steghide" "yersinia" "apktool" "krbrelayx" "pspy" "spraykatz"
+"wifiphisher" "braa" "arping" "beef-xss" "sickle-pdk" "bopscrk" " kerberoast" "apache-users"
+"bloodhound" "bully" "cmseek" "gemini-cli" "chisel" "ligolo-ng" "legba" "penelope"
+"ltrace" "nuclei" "dirsearch" "fastfetch" "backdoor-factory" "anew" 
+"crackmapexec"  "crunch" "legion" "set" "sublist3r" "airgeddon" "gedit""adaptixc2" "powercat"
+"ettercap-graphical"  "sherlock" "maltego" "bloodyAD" "parsero" "shell-gpt"
+"radare2" "wafw00f" "subfinder" "foremost" "cupp" "hoaxshell" "arsenal-ng"
+"stegcracker" "enum4linux-ng"  "pdfcrack" "nishang" "stegseek" "sstimap"
+"impacket-scripts" "medusa" "wine" "xsser" "knock" "ligolo-ng" "code-oss"
+"gospider" "p0f" "sslstrip" "joomscan" "hexstrike-ai" "ligolo-mp"
+"zaproxy" "peass" "cloud-enum" "httrack" "onesixtyone" "info" "armitage" "veil" "ollydbg"
+"tmux" "raven" "tinja" "rainbowcrack" "donut" "web-cache-vulnerability-scanner"
+"dsniff" "dnschef" "masscan" "feroxbuster" "shellter" "autorecon""wpprobe" 
+"sharphound" "uro" "dumpzilla" "hashrat" "shellfire" "villain" "sshuttle"  
+"spraykatz" "wordlists" "pspy" "dumpzilla" "kerberoast" "windows-privesc-check" "shellnoob"
+"ghidra" "remmina" "rubeus" "arjun" "sqlsus" "hamster-sidejack")
 
 for i in "${tools[@]}"; do
     echo "[+] Installing $i ..."
