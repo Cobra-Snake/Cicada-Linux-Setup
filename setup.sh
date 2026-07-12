@@ -3,8 +3,8 @@ apt update -y --fix-missing && apt-get update -y --fix-missing && apt install ge
 
 tools=(
 "dradis" "ghex" "steghide" "yersinia" "apktool" "krbrelayx" "pspy" "spraykatz"
-"wifiphisher" "braa" "arping" "beef-xss" "sickle-pdk" "bopscrk" " kerberoast" 
-"bloodhound" "bully" "cmseek" "gemini-cli" "chisel" "ligolo-ng" "legba" "penelope"
+"wifiphisher" "braa" "arping" "beef-xss" "sickle-pdk" "bopscrk" "penelope"
+"bloodhound" "bully" "cmseek" "gemini-cli" "chisel" "ligolo-ng" "legba" 
 "ltrace" "nuclei" "dirsearch" "fastfetch" "backdoor-factory" "anew" 
 "crackmapexec"  "crunch" "legion" "set" "sublist3r" "airgeddon" "gedit"
 "ettercap-graphical"  "sherlock" "bloodyAD" "parsero" "shell-gpt"
