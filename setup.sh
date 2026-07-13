@@ -5,19 +5,19 @@ tools=(
 "dradis" "ghex" "steghide" "yersinia" "apktool" "krbrelayx" "pspy" "spraykatz"
 "wifiphisher" "braa" "arping" "beef-xss" "sickle-pdk" "bopscrk" "penelope"
 "bloodhound" "bully" "cmseek" "gemini-cli" "chisel" "ligolo-ng" "legba" 
-"ltrace" "nuclei" "dirsearch" "fastfetch" "backdoor-factory" "anew" 
+"ltrace" "nuclei" "dirsearch" "fastfetch" "backdoor-factory" "apache-users"
 "crackmapexec"  "crunch" "legion" "set" "sublist3r" "airgeddon" "gedit"
 "ettercap-graphical"  "sherlock" "bloodyad" "parsero" "shell-gpt"
 "radare2" "subfinder" "foremost" "cupp" "hoaxshell" "arsenal-ng"
 "stegcracker" "enum4linux-ng"  "pdfcrack" "nishang" "stegseek" "sstimap"
 "impacket-scripts" "medusa" "wine" "xsser" "knocked" "ligolo-ng" "code-oss"
-"gospider" "p0f" "sslstrip" "joomscan" "hexstrike-ai" "ligolo-mp" "apache-users"
-"zaproxy" "peass" "cloud-enum" "httrack" "onesixtyone" "info" "armitage" "veil" 
+"gospider" "p0f" "sslstrip" "joomscan" "hexstrike-ai" "ligolo-mp" 
+"zaproxy" "peass" "httrack" "onesixtyone" "info" "armitage" "veil" 
 "tmux" "raven" "tinja" "rainbowcrack" "donut" "web-cache-vulnerability-scanner"
-"feroxbuster" "shellter" "autorecon""wpprobe" "adaptixc2" "powercat" "ollydbg"
+"feroxbuster" "shellter" "autorecon" "wpprobe" "adaptixc2" "powercat" "ollydbg"
 "sharphound" "uro" "dumpzilla" "hashrat" "shellfire" "villain" "sshuttle"  
-"spraykatz" "wordlists" "pspy" "dumpzilla" "kerberoast" "windows-privesc-check" "shellnoob"
-"ghidra" "remmina" "rubeus" "arjun" "sqlsus" "hamster-sidejack")
+"spraykatz" "wordlists" "pspy" "dumpzilla" "kerberoast" "windows-privesc-check"
+"ghidra" "remmina" "rubeus" "arjun" "sqlsus" "hamster-sidejack" "shellnoob")
 
 for i in "${tools[@]}"; do
     echo "[+] Installing $i ..."
@@ -29,6 +29,7 @@ unzip rustscan.deb.zip
 dpkg -i rustscan_2.4.1-1_amd64.deb
 gem install haiti-hash
 echo "fastfetch --logo kali" >> ~/.zshrc
+echo "fastfetch --logo kali" >> /root/.zshrc
 
 wget "https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64"
 mv kerbrute_linux_amd64 kerbrute && chmod +x kerbrute
@@ -38,7 +39,11 @@ git clone https://github.com/Cryilllic/Active-Directory-Wordlists.git
 mv Active-Directory-Wordlists /usr/share/wordlists
 
 go install -v github.com/musana/cf-hero/cmd/cf-hero@latest
+mv ~/go/bin/cf-hero /usr/local/bin
 go install -v github.com/PentestPad/subzy@latest
+mv ~/go/bin/subzy /usr/local/bin
+go install -v github.com/tomnomnom/anew@latest
+mv ~/go/bin/anew /usr/local/bin
 
 cd /root
 git clone "https://github.com/Screetsec/TheFatRat.git" && cd TheFatRat
