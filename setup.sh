@@ -2,21 +2,21 @@
 apt update -y --fix-missing && apt-get update -y --fix-missing && apt install gem -y --fix-missing && apt install libcompress-raw-lzma-perl -y --fix-missing && apt full-upgrade -y --fix-missing
 
 tools=(
-"dradis" "ghex" "steghide" "yersinia" "apktool" "krbrelayx" "pspy" "spraykatz"
+"dradis" "ghex" "steghide" "yersinia" "apktool" "krbrelayx" "spraykatz"
 "wifiphisher" "braa" "arping" "beef-xss" "sickle-pdk" "bopscrk" "penelope"
 "bloodhound" "bully" "cmseek" "gemini-cli" "chisel" "ligolo-ng" "legba" 
 "ltrace" "nuclei" "dirsearch" "fastfetch" "backdoor-factory" "apache-users"
-"crackmapexec"  "crunch" "legion" "set" "sublist3r" "airgeddon" "gedit"
+"crackmapexec"  "crunch" "legion" "set" "sublist3r" "airgeddon" 
 "ettercap-graphical"  "sherlock" "bloodyad" "parsero" "shell-gpt"
 "radare2" "subfinder" "foremost" "cupp" "hoaxshell" "arsenal-ng"
-"stegcracker" "enum4linux-ng"  "pdfcrack" "nishang" "stegseek" "sstimap"
+"stegcracker" "enum4linux-ng"  "pdfcrack" "nishang" "stegseek" "gedit"
 "impacket-scripts" "medusa" "wine" "xsser" "knocked" "ligolo-ng" "code-oss"
-"gospider" "p0f" "sslstrip" "joomscan" "hexstrike-ai" "ligolo-mp" 
-"zaproxy" "peass" "httrack" "onesixtyone" "info" "armitage" "veil" 
+"gospider" "p0f" "sslstrip" "joomscan" "hexstrike-ai" "ligolo-mp" "pspy" 
+"zaproxy" "httrack" "onesixtyone" "info" "armitage" "veil" "ollydbg"
 "tmux" "raven" "tinja" "rainbowcrack" "donut" "web-cache-vulnerability-scanner"
-"feroxbuster" "shellter" "autorecon" "wpprobe" "adaptixc2" "powercat" "ollydbg"
-"sharphound" "uro" "dumpzilla" "hashrat" "shellfire" "villain" "sshuttle"  
-"spraykatz" "wordlists" "pspy" "dumpzilla" "kerberoast" "windows-privesc-check"
+"feroxbuster" "shellter" "autorecon" "wpprobe" "adaptixc2" "powercat" 
+"sharphound" "uro" "hashrat" "shellfire" "villain" "sshuttle" "sstimap"
+"spraykatz" "wordlists" "dumpzilla" "kerberoast" "windows-privesc-check"
 "ghidra" "remmina" "rubeus" "arjun" "sqlsus" "hamster-sidejack" "shellnoob")
 
 for i in "${tools[@]}"; do
@@ -51,7 +51,7 @@ chmod +x update && ./update && chmod +x setup.sh && ./setup.sh
 
 cd /usr/share/nishang/ && git clone https://github.com/411Hall/JAWS.git
 cd JAWS && rm LICENSE README.md
-cd ~/Cicada-Linux-Setup
+cd ~/
 
 apt upgrade -y --fix-missing
 apt autoremove -y --fix-missing
