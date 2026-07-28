@@ -6,9 +6,9 @@ tools=(
 "wifiphisher" "braa" "arping" "beef-xss" "sickle-pdk" "bopscrk" "penelope"
 "bloodhound" "bully" "cmseek" "gemini-cli" "chisel" "ligolo-ng" "legba" 
 "ltrace" "nuclei" "dirsearch" "fastfetch" "backdoor-factory" "apache-users"
-"crackmapexec"  "crunch" "legion" "set" "sublist3r" "airgeddon" 
+"crackmapexec"  "crunch" "legion" "set" "sublist3r" "airgeddon" "ismtp"
 "ettercap-graphical"  "sherlock" "bloodyad" "parsero" "shell-gpt"
-"radare2" "subfinder" "foremost" "cupp" "hoaxshell" "arsenal-ng"
+"radare2" "subfinder" "foremost" "cupp" "hoaxshell" "arsenal-ng" "dnscat2"
 "stegcracker" "enum4linux-ng"  "pdfcrack" "nishang" "stegseek" "gedit"
 "impacket-scripts" "medusa" "wine" "xsser" "knocked" "ligolo-ng" "code-oss"
 "gospider" "p0f" "sslstrip" "joomscan" "hexstrike-ai" "ligolo-mp" "pspy" 
@@ -34,6 +34,14 @@ echo "fastfetch --logo kali" >> /root/.zshrc
 wget "https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64"
 mv kerbrute_linux_amd64 kerbrute && chmod +x kerbrute
 mv kerbrute /usr/local/bin
+
+git clone https://github.com/utoni/ptunnel-ng.git
+apt install automake autoconf -y --fix-missing
+cd ptunnel-ng
+sed -i '$s/.*/LDFLAGS=-static "${NEW_WD}\/configure" --enable-static $@ \&\& make clean \&\& make -j${BUILDJOBS:-4} all/' autogen.sh
+./autogen.sh
+cd src && mv prunnel-ng /usr/local/bin
+cd ../..
 
 git clone https://github.com/Cryilllic/Active-Directory-Wordlists.git
 mv Active-Directory-Wordlists /usr/share/wordlists
