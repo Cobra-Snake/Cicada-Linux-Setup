@@ -40,7 +40,7 @@ apt install automake autoconf -y --fix-missing
 cd ptunnel-ng
 sed -i '$s/.*/LDFLAGS=-static "${NEW_WD}\/configure" --enable-static $@ \&\& make clean \&\& make -j${BUILDJOBS:-4} all/' autogen.sh
 ./autogen.sh
-cd src && mv prunnel-ng /usr/local/bin
+cd src && mv ptunnel-ng /usr/local/bin
 cd ../..
 
 git clone https://github.com/Cryilllic/Active-Directory-Wordlists.git
